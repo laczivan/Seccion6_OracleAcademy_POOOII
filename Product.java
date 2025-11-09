@@ -8,7 +8,7 @@ package mx.edu.itses.electricidad.iz.producttester;
  *
  * @author zunig
  */
-ic class Product {
+public class Product {
     private String name;
     private int quantity;
     private double price;
@@ -25,7 +25,8 @@ ic class Product {
     public String toString() {
         return "Product{" + "name=" + name + ", quantity=" + quantity + ", price=" + price + ", elementNumber=" + elementNumber + '}';
     } 
-    
     }
+
+
 
 
