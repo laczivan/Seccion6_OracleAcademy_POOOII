@@ -8,6 +8,24 @@ package mx.edu.itses.electricidad.iz.producttester;
  *
  * @author zunig
  */
-public class Product {
+ic class Product {
+    private String name;
+    private int quantity;
+    private double price;
+    private int elementNumber;
+
+    public Product(String name, int quantity, double price, int elementNumber) {
+        this.name = name;
+        this.quantity = quantity;
+        this.price = price;
+        this.elementNumber = elementNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" + "name=" + name + ", quantity=" + quantity + ", price=" + price + ", elementNumber=" + elementNumber + '}';
+    } 
     
-}
+    }
+
+
